@@ -1,15 +1,81 @@
-/* Specialty */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+/* main text color: #2E2F42 */
+/* secondary text color: #434455 */
+/* akcent color: #4D5AE5 */
+
+:root {
+    --primary-text-color: #2E2F42 ; 
+    --title-text-color: #434455 ;
+    --akcent-color: #4D5AE5;
+    --primary-bg-color: #ffffff;
 }
 
+/* Specialty */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Button */
+.button {
+    color: var(--akcent-color);
+    background-color: var(--primary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 32px;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button.primary {
+    color: var(--primary-bg-color);
+    background-color: var(--akcent-color);
+}
 /* Header */
 
 /* Nav */
 
 /* Logo */
+.logo {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
 
+.logo-span{
+    color: #4D5AE5;
+
+}
 /* Menu */
+.site-nav .link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/* Hero */
+
+/* Section-1*/
+
+.features-list .title{
+    color: var(--primary-text-color);
+}
+
+.features-list .paragraf {
+    color: var(--title-text-color);
+}
