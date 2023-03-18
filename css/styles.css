@@ -42,6 +42,15 @@ a {
     color: var(--primary-bg-color);
     background-color: var(--akcent-color);
 }
+
+.button{
+
+}
+
+.button:hover, 
+:focus {
+    background-color: #404BBF;
+}
 /* Header */
 
 /* Nav */
@@ -68,7 +77,27 @@ a {
     color: var(--primary-text-color);
 }
 
+/* Address */
+.address-nav .link{
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
 /* Hero */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: var(--primary-bg-color);
+}
 
 /* Section-1*/
 
@@ -79,3 +108,4 @@ a {
 .features-list .paragraf {
     color: var(--title-text-color);
 }
+
