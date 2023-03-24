@@ -7,6 +7,7 @@
     --title-text-color: #434455 ;
     --akcent-color: #4D5AE5;
     --primary-bg-color: #ffffff;
+    --logo-akcent-color: #F4F4FD;
 }
 
 /* Specialty */
@@ -64,9 +65,15 @@ a {
     letter-spacing: 0.03em;
 }
 
-.logo-span{
-    color: #4D5AE5;
+.logo{
+    color: var(--akcent-color);
+}
 
+.logo-span{
+    color: var(--primary-text-color);
+}
+.logo-span-footer{
+    color: var(--logo-akcent-color);
 }
 /* Menu */
 .site-nav .link{
@@ -109,3 +116,8 @@ a {
     color: var(--title-text-color);
 }
 
+/* Footer */
+
+footer {
+    background-color: var(--primary-text-color);
+}
