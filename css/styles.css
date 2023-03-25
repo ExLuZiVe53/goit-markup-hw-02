@@ -31,8 +31,8 @@ a {
 
 /* Button */
 .button {
-    color: var(--akcent-color);
-    background-color: var(--primary-bg-color);
+    color: var(--primary-bg-color);
+    background-color: var(--akcent-color);
     font-weight: 500;
     font-size: 16px;
 }
@@ -47,8 +47,7 @@ a {
 
 .button.primary:hover, 
 :focus {
-    color: var(--primary-bg-color);
-    background-color: var(--akcent-color);
+    background-color: var(--btn-active-color);
 }
 /* Header */
 
@@ -174,6 +173,10 @@ section.emploers {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.employers-list .items{
+    background-color: var(--primary-bg-color);
 }
 
 /* Footer */
