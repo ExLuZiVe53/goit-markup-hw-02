@@ -38,7 +38,7 @@ a {
 }
 
 .button.primary {
-    font-style: inherit;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -140,7 +140,7 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-
+    color: var(--primary-text-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -155,7 +155,7 @@ section.emploers {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-
+    color: var(--primary-text-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
