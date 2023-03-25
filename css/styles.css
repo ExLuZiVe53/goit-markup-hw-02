@@ -8,6 +8,7 @@
     --akcent-color: #4D5AE5;
     --primary-bg-color: #ffffff;
     --logo-akcent-color: #F4F4FD;
+    --btn-active-color: #404BBF;
 }
 
 /* Specialty */
@@ -74,6 +75,10 @@ a {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:active {
+    color: var(--btn-active-color);
 }
 
 /* Address */
@@ -171,4 +176,40 @@ footer .paragraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-akcent-color);
+}
+
+/* ========PORTFOLIO======== */
+/* main text color: #2E2F42 */
+/* secondary text color: #434455 */
+/* akcent color: #4D5AE5 */
+
+/* Section-Filters */
+.button-filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--akcent-color);
+    background-color: var(--logo-akcent-color);
+}
+.button-filters:hover,
+.button-filters:active {
+    background-color:  var(--btn-active-color);
+    color: var(--primary-bg-color);
+}
+
+/* Section-Galery */
+.galery-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.galery-list .paragraf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
