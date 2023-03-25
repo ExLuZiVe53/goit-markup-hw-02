@@ -17,7 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: var(--primary-bg-color);
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
     font-style: normal;
 }
 
@@ -38,30 +38,33 @@ a {
 }
 
 .button.primary {
-    color: var(--primary-bg-color);
-    background-color: var(--akcent-color);
+    font-style: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 
-.button:hover, 
+.button.primary:hover, 
 :focus {
-    background-color: #404BBF;
+    color: var(--primary-bg-color);
+    background-color: var(--akcent-color);
 }
 /* Header */
 
 /* Nav */
 
 /* Logo */
-.logo {
+.link {
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03em;
-}
-
-.logo{
+    line-height: 1.17;
     color: var(--akcent-color);
+    text-decoration: none;
 }
 
 .logo-span{
@@ -73,20 +76,32 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:active {
+.site-nav .link:focus,
+.site-nav .link:active{
     color: var(--btn-active-color);
 }
 
 /* Address */
+.address{
+    font-style: normal;
+}
+
 .address-nav .link{
     color: #434455;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.address-nav .link:hover,
+.address-nav .link:active,
+.address-nav .link:focus{
+    color: var(--btn-active-color);
 }
 
 /* Hero */
@@ -104,6 +119,7 @@ a {
 }
 
 /* Section-1*/
+
 .features-list .title{
     color: var(--primary-text-color);
     font-weight: 500;
