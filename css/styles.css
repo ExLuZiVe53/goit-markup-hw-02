@@ -221,7 +221,7 @@ footer .paragraf {
 }
 
 /* Section-Galery */
-.galery-list .title {
+.galery-list> .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
