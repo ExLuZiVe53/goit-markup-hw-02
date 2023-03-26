@@ -147,6 +147,9 @@ a {
 }
 
 /* Section-3 */
+section.emploers {
+    background-color: #F4F4FD;
+}
 
 .employers-title {
     font-weight: 700;
