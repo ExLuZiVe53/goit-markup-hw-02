@@ -147,11 +147,8 @@ a {
 }
 
 /* Section-3 */
-section.emploers {
-    background-color: var(--logo-akcent-color);
-}
 
-section .employers-title {
+.employers-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
