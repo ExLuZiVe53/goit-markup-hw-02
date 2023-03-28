@@ -42,7 +42,8 @@ body {
 
 
 .button.primary:hover, 
-:focus {
+.button.primary:active,
+.button.primary:focus {
     background-color: var(--btn-active-color);
 }
 /* Header */
